@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>来信 · 日和造物</title>
+  <meta name="description" content="寻找日和。线上店铺即将开幕：常规网店售明盒与实用单品，小程序抽盒机负责盲盒。">
+  <link rel="icon" href="images/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&family=Noto+Serif+SC:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="日和造物 首页">
+        <img class="brand-mark" src="images/logo.svg" width="36" height="39" alt="">
+        <span class="brand-name">日和造物</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="打开菜单">
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="products.html">造物</a></li>
+          <li><a href="story.html">故事</a></li>
+          <li><a href="store.html">店面</a></li>
+          <li><a href="contact.html" aria-current="page">来信</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-hero">
+      <div class="container">
+        <p class="eyebrow">A Letter</p>
+        <h1>来信</h1>
+        <p class="lede">寻找日和。线上店铺即将开幕，实体店招已写下「日和印记」。先把想说的话轻轻放下。</p>
+      </div>
+    </header>
+
+    <section class="section-tight" style="padding-top:0">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="reveal">
+            <p class="eyebrow">Soon</p>
+            <h2>线上店铺即将开幕</h2>
+            <div class="prose" style="margin-top:1.3rem">
+              <p>我们准备用两种方式见面：一边是安静的货架，一边是可以抽开的小盒子。</p>
+            </div>
+            <ul class="channel-list">
+              <li>
+                <h3>常规网店</h3>
+                <p>主打明盒与实用单品。可以直接选款，带走毛绒热水袋套、发光小夜灯、桌面小风扇，以及整套盲盒。</p>
+              </li>
+              <li>
+                <h3>小程序抽盒机</h3>
+                <p>主打盲盒的乐趣与复购。棉花娃盲盒设有常规与隐藏款，也可以遇见配件盲袋。</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="reveal delay-1">
+            <p class="eyebrow">Leave a note</p>
+            <h2>把话写下</h2>
+            <form class="letter-form" id="letter-form" style="margin-top:1.6rem" novalidate>
+              <div class="field">
+                <label for="letter-name">姓名或称呼</label>
+                <input id="letter-name" name="name" type="text" autocomplete="name">
+              </div>
+              <div class="field">
+                <label for="letter-body">想说的话</label>
+                <textarea id="letter-body" name="message" rows="6" placeholder="晴天、阴天，或只是路过。"></textarea>
+              </div>
+              <button class="btn" type="submit">放下这封信</button>
+              <p class="form-note">这不是一个会寄出的信箱，只是一页纸。我们尚未公布对外邮箱与地址，因此信件会留在此页，不会被发送。</p>
+              <p class="form-thanks" id="letter-thanks" role="status">谢谢你写下这些。线上店铺开幕时，希望还能再遇见。先把想说的话留在心里，我们会把晴日慢慢打开。</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container-wide">
+        <figure class="media-frame reveal">
+          <picture>
+            <source type="image/webp" srcset="images/products/fragrance-tag.webp">
+            <img src="images/products/fragrance-tag.jpg" width="618" height="565" alt="压凹着日和印记的香氛挂牌，像一枚可以带走的印记">
+          </picture>
+          <figcaption><span class="cn">一枚可以带走的印记</span> An imprint to keep</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img class="brand-mark" src="images/logo.svg" width="48" height="52" alt="">
+          <p class="footer-tagline">日和瞬息，皆有印记。<br>让微小幸福，有迹可循。</p>
+          <p class="footer-en">Clear Days, Gentle Harmony</p>
+        </div>
+        <nav class="footer-nav" aria-label="页脚导航">
+          <a href="index.html">首页</a>
+          <a href="products.html">造物</a>
+          <a href="story.html">故事</a>
+          <a href="store.html">店面</a>
+          <a href="contact.html">来信</a>
+        </nav>
+        <div class="footer-lockup">
+          <p class="wordmark">日和造物</p>
+          <p class="footer-en">Hiyori Imprint</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>Hiyori Imprint</span>
+        <span>日和印记</span>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
